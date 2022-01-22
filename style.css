@@ -1,12 +1,108 @@
-.body {
-    margin: 30px 140px;
+/*全体的なcss*/
+span, a {
+    display: block;
+}
+h1, h2, h3 {
+    margin: 0;
 }
 
-.header--title {
+body {
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+main {
+    margin: 0 20px;
+}
+
+/*header*/
+.header__img {
+    border-radius: 50%;
     text-align: center;
+    height: 200px;
+    margin-bottom: 35px;
+}
+
+.header__title {
+    text-align: center;
+    margin: 60px 0;
+    color: #585858;
+    font-family: 'Caveat';
+    font-size: 25px;
+}
+
+.nav-bar {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /*background-color: rgba(0, 0, 0, 0.05);*/
+    /*border-radius: 15px;*/
+    /*margin: 30px 0;*/
 }
 
 .nav-bar__link {
     text-align: center;
-    margin: auto;
+    width: 100%;
+    text-decoration: none;
+    color: #585858;
+    padding: 10px;
+}
+
+.is-active {
+    font-weight: bold;
+    position: relative;
+}
+
+.is-active:after {
+    position: absolute;
+    background-color: #6792e7;
+    bottom: 0;
+    left: 10%;
+    display: block;
+    content: "";
+    width: 80%;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 40px 30px;
+     /*border-bottom: 3px dashed #d5d5d5;*/
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.content__title {
+    margin-bottom: 15px;
+    color: #383838;
+}
+
+.content__detail {
+    padding: 5px 15px;
+}
+
+/*index.html*/
+.basic-info {
+    padding: 5px 0;
+}
+
+.accounts {
+    display: flex;
+}
+
+.account-icon {
+    margin: 7px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.fa-github:hover {
+    color: black;
+}
+.fa-twitter:hover {
+    color: #00aced ;
+}
+.fa-envelope:hover {
+    color: #6792e7;
 }
