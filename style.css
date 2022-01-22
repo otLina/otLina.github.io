@@ -1,0 +1,12 @@
+.body {
+    margin: 30px 140px;
+}
+
+.header--title {
+    text-align: center;
+}
+
+.nav-bar__link {
+    text-align: center;
+    margin: auto;
+}
