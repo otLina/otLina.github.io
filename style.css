@@ -107,3 +107,60 @@ main {
 .fa-envelope:hover {
     color: #6792e7;
 }
+
+/*Programming*/
+.career__dates {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.4);
+}
+.career__company-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.career__description {
+    margin-left: 20px;
+}
+.career__history {
+    margin: 45px 50px 0 50px;
+}
+.career__history--title {
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+.career__history--content {
+    margin: 5px 35px;
+    font-size: 15px;
+}
+
+.programming__languages {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.programing-icon {
+    margin: 3px 10px;
+}
+.fa-html5 {
+    color: #f06529;
+}
+.fa-css3-alt {
+    color: #009ce5;
+}
+.fa-php {
+    color: #777cb4;
+}
+.fa-js {
+    color: #f7df1b;
+}
+
+.programming__frameworks {
+    display: flex;
+    margin-left: 30px;
+}
+.fa-laravel {
+    color: #fb503a;
+}
+.fa-vuejs {
+    color: #3fb983;
+}
