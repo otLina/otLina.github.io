@@ -67,7 +67,7 @@ main {
 }
 
 .content {
-    padding: 40px 30px;
+    padding: 40px 50px;
      /*border-bottom: 3px dashed #d5d5d5;*/
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 15px;
@@ -76,7 +76,8 @@ main {
 
 .content__title {
     margin-bottom: 15px;
-    color: #383838;
+    color: #6792e7;
+    font-size: 22px;
 }
 
 .content__detail {
