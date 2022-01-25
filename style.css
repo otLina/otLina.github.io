@@ -2,7 +2,7 @@
 span, a {
     display: block;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
     margin: 0;
 }
 
@@ -163,4 +163,19 @@ main {
 }
 .fa-vuejs {
     color: #3fb983;
+}
+
+/*Game Development*/
+.unity-products__list {
+    padding-bottom: 5px;
+}
+.create-with-code {
+    padding-bottom: 55px;
+}
+.unity-products__video {
+    padding-bottom: 15px;
+}
+.personal-project__description {
+    width: 650px;
+    font-size: 13px;
 }
