@@ -81,7 +81,7 @@ main {
 }
 
 .content__detail {
-    padding: 5px 15px;
+    padding: 30px 15px;
 }
 
 /*index.html*/
@@ -152,6 +152,10 @@ main {
 }
 .fa-js {
     color: #f7df1b;
+}
+.csharp-logo {
+    width: 55px;
+    height: 55px;
 }
 
 .programming__frameworks {
