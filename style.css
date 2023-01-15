@@ -138,7 +138,7 @@ main {
     margin-left: 30px;
     margin-bottom: 20px;
 }
-.programing-icon {
+.programming-icon {
     margin: 3px 10px;
 }
 .fa-html5 {
@@ -156,6 +156,9 @@ main {
 .csharp-logo {
     width: 55px;
     height: 55px;
+}
+.fa-python {
+    color: #306998
 }
 
 .programming__frameworks {
